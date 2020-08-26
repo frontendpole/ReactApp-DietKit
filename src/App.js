@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import classes from './App.module.css';
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
-import { CardBMI } from './containers/CardBMI/CardBMI'
-import { CardEnergy } from './containers/CardEnergy/CardEnergy'
+import { CardBMI } from './containers/Card/CardBMI/CardBMI'
+import { CardEnergy } from './containers/Card/CardEnergy/CardEnergy'
+import { CardWater } from './containers/Card/CardWater/CardWater'
 import Footer from './components/Footer/Footer'
 
 export class App extends Component {
@@ -11,10 +12,11 @@ export class App extends Component {
     return (
       <div className={classes.AppWrapper}>
         <Nav />
-        <Header content='test headera' />
+        <Header content='your diet calculation made easy' fontSize='40px' />
         <div className={classes.AppMain}>
-          <CardBMI />
           <CardEnergy />
+          <CardBMI />
+          <CardWater />
         </div>
         <Footer />
       </div>

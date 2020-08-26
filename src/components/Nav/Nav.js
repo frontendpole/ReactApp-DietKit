@@ -4,9 +4,9 @@ import classes from './Nav.module.css';
 
 const nav = (props) => {
   return (
-    <header className={classes.Header} style={{ fontSize: props.fontSize }}>
-      {props.content}
-    </header>
+    <nav className={classes.Nav}>
+      <a className={classes.Logo} href="#">EASY DIET</a>
+    </nav>
   );
 }
 
