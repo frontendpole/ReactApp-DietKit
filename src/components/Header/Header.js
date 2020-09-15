@@ -2,10 +2,10 @@ import React from 'react';
 
 import classes from './Header.module.css';
 
-const header = (props) => {
+const header = ({ fontSize, color, content }) => {
   return (
-    <header className={classes.Header} style={{ fontSize: props.fontSize, color: props.color }}>
-      {props.content}
+    <header className={classes.Header} style={{ fontSize: fontSize, color: color }}>
+      {content}
     </header>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './Result.module.css'
 
-const result = (props) => {
+const result = ({ result }) => {
   return (
-    <div className={classes.Result}>{props.result}</div>
+    <div className={classes.Result}>{result}</div>
   );
 }
 

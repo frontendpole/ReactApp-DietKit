@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './Footer.module.css'
 
-const footer = (props) => {
+const footer = ({backgroundColor}) => {
   return (
-    <footer className={classes.Footer}></footer>
+    <footer className={classes.Footer} style={{ backgroundColor: backgroundColor }}></footer>
   );
 }
 

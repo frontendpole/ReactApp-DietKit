@@ -3,7 +3,8 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 .AppMain {

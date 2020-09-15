@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 
-const choiceBMI = (props) => {
+const choiceBMI = () => {
   return (
     <div className={classes.Choice} style={{ backgroundColor: 'rgb(80, 126, 80)' }}>
       <Link to='BMICalculator'>Body Mass Index</Link>

@@ -4,11 +4,11 @@ import {
   Link
 } from "react-router-dom";
 
-const nav = (props) => {
+const nav = ({ backgroundColor }) => {
   return (
-    <nav className={classes.Nav} style={{ backgroundColor: props.backgroundColor }}>
+    <nav className={classes.Nav} style={{ backgroundColor: backgroundColor }}>
       <Link className={classes.Logo} to='/'>EASY DIET</Link>
-    </nav >
+    </nav>
   );
 }
 

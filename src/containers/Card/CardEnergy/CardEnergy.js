@@ -108,6 +108,7 @@ export class CardEnergy extends Component {
         />
         <Button onClick={this.startCalc} />
         <Result result={this.state.result} />
+        <i className="fas fa-angle-left"></i>
       </div>
     )
   }

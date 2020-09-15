@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 
-const choiceEnergy = (props) => {
+const choiceEnergy = () => {
   return (
     <div className={classes.Choice} style={{ backgroundColor: 'rgb(211, 117, 117)' }}>
       <Link to='EnergyDemandCalculator'>Energy Demand</Link>

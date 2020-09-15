@@ -1,17 +1,17 @@
 import React from 'react';
 import classes from './InputField.module.css'
 
-const inputField = (props) => {
+const inputField = ({ name, label, type, placeholder, value, onChange }) => {
   return (
     <div className={classes.InputFieldWrapper}>
-      <label htmlFor={props.name}>{props.label}</label>
+      <label htmlFor={name}>{label}</label>
       <input
-        type={props.type}
-        label={props.label}
-        name={props.name}
-        placeholder={props.placeholder}
-        value={props.value}
-        onChange={props.onChange}
+        type={type}
+        label={label}
+        name={name}
+        placeholder={placeholder}
+        value={value}
+        onChange={onChange}
       />
     </div>
   );
