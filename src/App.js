@@ -10,6 +10,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 import ChoiceEnergy from './elements/Choice/ChoiceEnergy/ChoiceEnergy'
 import ChoiceBMI from './elements/Choice/ChoiceBMI/ChoiceBMI'
@@ -22,8 +23,8 @@ export class App extends Component {
         <Router>
           <Switch>
             <Route exact path='/'>
-              <Nav backgroundColor='lightslategray' />
-              <Header content='choose your dietary calculator' fontSize='40px' />
+              <Nav backgroundColor='darkgray' />
+              <Header content='choose your calculator' fontSize='40px' />
               <div className={classes.AppMain}>
                 <ChoiceEnergy />
                 <ChoiceBMI />
@@ -35,25 +36,25 @@ export class App extends Component {
               <Nav backgroundColor='rgb(211, 117, 117)' />
               <Header content='calculate your daily energy demand' fontSize='40px' />
               <div className={classes.AppMain}>
+                <Link className={classes.Back} to='/'>back</Link>
                 <CardEnergy />
               </div>
-              <Footer />
             </Route>
             <Route path='/BMICalculator'>
               <Nav backgroundColor='rgb(80, 126, 80)' />
               <Header content='calculate your body mass index' fontSize='40px' />
               <div className={classes.AppMain}>
+                <Link className={classes.Back} to='/'>back</Link>
                 <CardBMI />
               </div>
-              <Footer />
             </Route>
             <Route path='/WaterDemandCalculator'>
               <Nav backgroundColor='cadetblue' />
               <Header content='calculate your daily water demand' fontSize='40px' />
               <div className={classes.AppMain}>
+                <Link className={classes.Back} to='/'>back</Link>
                 <CardWater />
               </div>
-              <Footer />
             </Route>
           </Switch>
         </Router>

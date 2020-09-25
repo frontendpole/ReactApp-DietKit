@@ -1,21 +1,24 @@
 import React from 'react';
 import classes from '../Form.module.css'
 import Input from '../../../elements/InputField/InputField'
+import PropTypes from 'prop-types';
 
 export const formBMI = ({ value, onChange }) => {
   return (
     <div className={classes.FormWrapper}>
       <Input
-        type='text'
+        label='weight'
+        type='number'
         name='weight'
-        placeholder='weight'
+        placeholder='kg'
         value={value}
         onChange={onChange}>
       </Input>
       <Input
-        type='text'
+        label='height'
+        type='number'
         name='height'
-        placeholder='height'
+        placeholder='cm'
         value={value}
         onChange={onChange}>
       </Input>

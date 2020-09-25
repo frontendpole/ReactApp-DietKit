@@ -8,11 +8,11 @@ import Result from '../../../elements/Result/Result'
 export class CardWater extends Component {
   state = {
     weight: '',
-    training: '',
+    training: '---',
     result: ''
   }
 
-  inputHandler = (e) => {
+  handleInput = (e) => {
     const target = e.target;
     const value = target.value;
     const name = target.name;
@@ -25,7 +25,7 @@ export class CardWater extends Component {
   startCalc = () => {
     let weight = this.state.weight
     let training = this.state.training
-    if (weight && training != 'training') {
+    if (weight && training != '---') {
       let result = (weight / 10 * 300)
       if (training === 'no training day') {
         this.setState({
@@ -59,7 +59,7 @@ export class CardWater extends Component {
       <div className={classes.Card} style={{ backgroundColor: 'cadetblue' }}>
         <Header content='Water Demand' color='white' fontSize='30px' />
         <FormWater
-          onChange={this.inputHandler}
+          onChange={this.handleInput}
         />
         <Button onClick={this.startCalc} />
         <Result result={this.state.result} />

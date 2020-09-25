@@ -8,9 +8,9 @@ import Result from '../../../elements/Result/Result'
 export class CardEnergy extends Component {
   state = {
     age: '',
-    sex: '',
+    sex: '---',
     weight: '',
-    lifestyle: '',
+    lifestyle: '---',
     result: ''
   }
 
@@ -29,7 +29,7 @@ export class CardEnergy extends Component {
     let sex = this.state.sex
     let weight = this.state.weight
     let lifestyle = this.state.lifestyle
-    if (age && sex != "sex" && weight && lifestyle != 'lifestyle') {
+    if (age && sex != "---" && weight && lifestyle != '---') {
       if (age >= 10 && age <= 18) {
         if (sex === 'male') {
           let result = (weight * 17.5) + 651;
@@ -108,7 +108,6 @@ export class CardEnergy extends Component {
         />
         <Button onClick={this.startCalc} />
         <Result result={this.state.result} />
-        <i className="fas fa-angle-left"></i>
       </div>
     )
   }

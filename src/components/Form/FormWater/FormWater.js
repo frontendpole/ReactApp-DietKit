@@ -6,14 +6,16 @@ export const formWater = ({ value, onChange }) => {
   return (
     <div className={classes.FormWrapper}>
       <Input
-        type='text'
+        label='weight'
+        type='number'
         name='weight'
-        placeholder='weight'
+        placeholder='kg'
         value={value}
         onChange={onChange}>
       </Input>
+      <label htmlFor="training">training</label>
       <select className={classes.select} name='training' onChange={onChange}>
-        <option className={classes.option} value="training">training</option>
+        <option className={classes.option} value="---">---</option>
         <option value="no training day">no training day</option>
         <option value="mild training day">mild training day</option>
         <option value="moderate training day">moderate training day</option>

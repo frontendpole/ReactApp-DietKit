@@ -6,11 +6,17 @@
   max-width: 280px;
   height: auto;
   line-height: normal;
-  font-size: 1.875rem;
+  font-size: 1.675rem;
   color: #333333;
   border: none;
   border-bottom: 2px solid #adadad;
   background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.InputFieldWrapper input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .InputFieldWrapper input::placeholder {

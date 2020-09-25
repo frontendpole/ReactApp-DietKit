@@ -7,12 +7,12 @@ import Result from '../../../elements/Result/Result'
 
 export class CardBMI extends Component {
   state = {
-    weight: '',
-    height: '',
+    weight: null,
+    height: null,
     result: ''
   }
 
-  inputHandler = (e) => {
+  handleInput = (e) => {
     const target = e.target;
     const value = target.value;
     const name = target.name;
@@ -22,17 +22,18 @@ export class CardBMI extends Component {
     });
   }
 
-  startCalc = () => {
-    let weight = this.state.weight
-    let height = this.state.height
+  calculateBMI = () => {
+    let weight = this.state.weight;
+    let height = this.state.height;
+    console.log(typeof weight)
+    console.log(typeof height)
     if (weight && height) {
-      let result = Math.floor((weight / height ** 2) * 10000)
-
+      let result = Math.floor((weight / height ** 2) * 10000);
       this.setState({
         result
       })
     } else {
-      alert('Please put all of the data.')
+      alert('All inputs must be filled.');
     }
   }
 
@@ -41,9 +42,9 @@ export class CardBMI extends Component {
       <div className={classes.Card} style={{ backgroundColor: 'rgb(80, 126, 80)' }}>
         <Header content='Body Mass Index' color='blanchedalmond' fontSize='30px' />
         <FormBMI
-          onChange={this.inputHandler}
+          onChange={this.handleInput}
         />
-        <Button onClick={this.startCalc} />
+        <Button onClick={this.calculateBMI} />
         <Result result={this.state.result} />
       </div>
     )
