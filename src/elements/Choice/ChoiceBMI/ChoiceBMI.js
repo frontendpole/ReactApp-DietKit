@@ -7,7 +7,7 @@ import {
 const choiceBMI = () => {
   return (
     <div className={classes.Choice} style={{ backgroundColor: 'rgb(80, 126, 80)' }}>
-      <Link to='BMICalculator'>Body Mass Index</Link>
+      <Link to='/react-app-easy-diet-app/bmi-calculator'>Body Mass Index</Link>
     </div>
   );
 }

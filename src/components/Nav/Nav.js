@@ -7,7 +7,7 @@ import {
 const nav = ({ backgroundColor }) => {
   return (
     <nav className={classes.Nav} style={{ backgroundColor: backgroundColor }}>
-      <Link className={classes.Logo} to='/'>EASY DIET</Link>
+      <Link className={classes.Logo} to='/react-app-easy-diet-app'>EASY DIET</Link>
     </nav>
   );
 }
