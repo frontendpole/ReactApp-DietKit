@@ -25,7 +25,7 @@ export class CardWater extends Component {
   startCalc = () => {
     let weight = this.state.weight
     let training = this.state.training
-    if (weight && training != '---') {
+    if (weight && training !== '---') {
       let result = (weight / 10 * 300)
       if (training === 'no training day') {
         this.setState({

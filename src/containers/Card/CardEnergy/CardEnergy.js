@@ -29,7 +29,7 @@ export class CardEnergy extends Component {
     let sex = this.state.sex
     let weight = this.state.weight
     let lifestyle = this.state.lifestyle
-    if (age && sex != "---" && weight && lifestyle != '---') {
+    if (age && sex !== "---" && weight && lifestyle !== '---') {
       if (age >= 10 && age <= 18) {
         if (sex === 'male') {
           let result = (weight * 17.5) + 651;

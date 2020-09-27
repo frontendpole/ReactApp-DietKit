@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from '../Form.module.css'
 import Input from '../../../elements/InputField/InputField'
-import PropTypes from 'prop-types';
 
 export const formBMI = ({ value, onChange }) => {
   return (
