@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a2eb17b515ce257dd00684d91142bc6",
+    "revision": "6d505f5591b5e6b76648cfb7d24ce354",
     "url": "/react-app-easy-diet-app/index.html"
   },
   {
-    "revision": "f85b8654bea9e754d6ae",
+    "revision": "f63e6ff8d593e97c83b1",
     "url": "/react-app-easy-diet-app/static/css/main.a10cf371.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-app-easy-diet-app/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f85b8654bea9e754d6ae",
-    "url": "/react-app-easy-diet-app/static/js/main.3b7271f4.chunk.js"
+    "revision": "f63e6ff8d593e97c83b1",
+    "url": "/react-app-easy-diet-app/static/js/main.a60d0886.chunk.js"
   },
   {
     "revision": "40372992ddadbd153669",

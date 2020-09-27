@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-app-easy-diet-app/precache-manifest.8aba8ea74d4798ba108b29eac05cb86f.js"
+  "/react-app-easy-diet-app/precache-manifest.135c7d739952b02ba3432f3a3907a43b.js"
 );
 
 self.addEventListener('message', (event) => {
