@@ -32,7 +32,7 @@ export class App extends Component {
               </div>
               <Footer />
             </Route>
-            <Route path='/EnergyDemandCalculator'>
+            <Route path='/energydemandcalculator'>
               <Nav backgroundColor='rgb(211, 117, 117)' />
               <Header content='calculate your daily energy demand' fontSize='40px' />
               <div className={classes.AppMain}>
@@ -40,7 +40,7 @@ export class App extends Component {
                 <CardEnergy />
               </div>
             </Route>
-            <Route path='/BMICalculator'>
+            <Route path='/bmicalculator'>
               <Nav backgroundColor='rgb(80, 126, 80)' />
               <Header content='calculate your body mass index' fontSize='40px' />
               <div className={classes.AppMain}>
@@ -48,7 +48,7 @@ export class App extends Component {
                 <CardBMI />
               </div>
             </Route>
-            <Route path='/WaterDemandCalculator'>
+            <Route path='/waterdemandcalculator'>
               <Nav backgroundColor='cadetblue' />
               <Header content='calculate your daily water demand' fontSize='40px' />
               <div className={classes.AppMain}>
