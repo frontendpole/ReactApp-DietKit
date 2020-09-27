@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ReactApp-Easy-Diet-App/static/css/main.a10cf371.chunk.css",
-    "main.js": "/ReactApp-Easy-Diet-App/static/js/main.e295a8b2.chunk.js",
-    "main.js.map": "/ReactApp-Easy-Diet-App/static/js/main.e295a8b2.chunk.js.map",
-    "runtime-main.js": "/ReactApp-Easy-Diet-App/static/js/runtime-main.0d83ba7c.js",
-    "runtime-main.js.map": "/ReactApp-Easy-Diet-App/static/js/runtime-main.0d83ba7c.js.map",
-    "static/js/2.2f4a89fd.chunk.js": "/ReactApp-Easy-Diet-App/static/js/2.2f4a89fd.chunk.js",
-    "static/js/2.2f4a89fd.chunk.js.map": "/ReactApp-Easy-Diet-App/static/js/2.2f4a89fd.chunk.js.map",
-    "index.html": "/ReactApp-Easy-Diet-App/index.html",
-    "precache-manifest.7d86028913c0d7813e5602d1c2eed1f2.js": "/ReactApp-Easy-Diet-App/precache-manifest.7d86028913c0d7813e5602d1c2eed1f2.js",
-    "service-worker.js": "/ReactApp-Easy-Diet-App/service-worker.js",
-    "static/css/main.a10cf371.chunk.css.map": "/ReactApp-Easy-Diet-App/static/css/main.a10cf371.chunk.css.map",
-    "static/js/2.2f4a89fd.chunk.js.LICENSE.txt": "/ReactApp-Easy-Diet-App/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
+    "main.css": "/reactapp-easy-diet-app/static/css/main.a10cf371.chunk.css",
+    "main.js": "/reactapp-easy-diet-app/static/js/main.09bf78e5.chunk.js",
+    "main.js.map": "/reactapp-easy-diet-app/static/js/main.09bf78e5.chunk.js.map",
+    "runtime-main.js": "/reactapp-easy-diet-app/static/js/runtime-main.4d45f367.js",
+    "runtime-main.js.map": "/reactapp-easy-diet-app/static/js/runtime-main.4d45f367.js.map",
+    "static/js/2.2f4a89fd.chunk.js": "/reactapp-easy-diet-app/static/js/2.2f4a89fd.chunk.js",
+    "static/js/2.2f4a89fd.chunk.js.map": "/reactapp-easy-diet-app/static/js/2.2f4a89fd.chunk.js.map",
+    "index.html": "/reactapp-easy-diet-app/index.html",
+    "precache-manifest.ffe89b493f28f15ac385b5154e6f032f.js": "/reactapp-easy-diet-app/precache-manifest.ffe89b493f28f15ac385b5154e6f032f.js",
+    "service-worker.js": "/reactapp-easy-diet-app/service-worker.js",
+    "static/css/main.a10cf371.chunk.css.map": "/reactapp-easy-diet-app/static/css/main.a10cf371.chunk.css.map",
+    "static/js/2.2f4a89fd.chunk.js.LICENSE.txt": "/reactapp-easy-diet-app/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d83ba7c.js",
+    "static/js/runtime-main.4d45f367.js",
     "static/js/2.2f4a89fd.chunk.js",
     "static/css/main.a10cf371.chunk.css",
-    "static/js/main.e295a8b2.chunk.js"
+    "static/js/main.09bf78e5.chunk.js"
   ]
 }
