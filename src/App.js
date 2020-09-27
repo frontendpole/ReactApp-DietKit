@@ -22,7 +22,7 @@ export class App extends Component {
       <div className={classes.AppWrapper}>
         <Router>
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='https://frontendpole.github.io/ReactApp-Easy-Diet-App/'>
               <Nav backgroundColor='darkgray' />
               <Header content='choose your calculator' fontSize='40px' />
               <div className={classes.AppMain}>
@@ -32,27 +32,27 @@ export class App extends Component {
               </div>
               <Footer />
             </Route>
-            <Route path='/EnergyDemandCalculator'>
+            <Route path='https://frontendpole.github.io/ReactApp-Easy-Diet-App/EnergyDemandCalculator'>
               <Nav backgroundColor='rgb(211, 117, 117)' />
               <Header content='calculate your daily energy demand' fontSize='40px' />
               <div className={classes.AppMain}>
-                <Link className={classes.Back} to='/'>back</Link>
+                <Link className={classes.Back} to='https://frontendpole.github.io/ReactApp-Easy-Diet-App/'>back</Link>
                 <CardEnergy />
               </div>
             </Route>
-            <Route path='/BMICalculator'>
+            <Route path='https://frontendpole.github.io/ReactApp-Easy-Diet-App/BMICalculator'>
               <Nav backgroundColor='rgb(80, 126, 80)' />
               <Header content='calculate your body mass index' fontSize='40px' />
               <div className={classes.AppMain}>
-                <Link className={classes.Back} to='/'>back</Link>
+                <Link className={classes.Back} to='https://frontendpole.github.io/ReactApp-Easy-Diet-App/'>back</Link>
                 <CardBMI />
               </div>
             </Route>
-            <Route path='/WaterDemandCalculator'>
+            <Route path='https://frontendpole.github.io/ReactApp-Easy-Diet-App/WaterDemandCalculator'>
               <Nav backgroundColor='cadetblue' />
               <Header content='calculate your daily water demand' fontSize='40px' />
               <div className={classes.AppMain}>
-                <Link className={classes.Back} to='/'>back</Link>
+                <Link className={classes.Back} to='https://frontendpole.github.io/ReactApp-Easy-Diet-App/'>back</Link>
                 <CardWater />
               </div>
             </Route>
