@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-app-easy-diet-app/static/css/main.a10cf371.chunk.css",
-    "main.js": "/react-app-easy-diet-app/static/js/main.3b7271f4.chunk.js",
-    "main.js.map": "/react-app-easy-diet-app/static/js/main.3b7271f4.chunk.js.map",
-    "runtime-main.js": "/react-app-easy-diet-app/static/js/runtime-main.f1bfd2a3.js",
-    "runtime-main.js.map": "/react-app-easy-diet-app/static/js/runtime-main.f1bfd2a3.js.map",
-    "static/js/2.2f4a89fd.chunk.js": "/react-app-easy-diet-app/static/js/2.2f4a89fd.chunk.js",
-    "static/js/2.2f4a89fd.chunk.js.map": "/react-app-easy-diet-app/static/js/2.2f4a89fd.chunk.js.map",
-    "index.html": "/react-app-easy-diet-app/index.html",
-    "precache-manifest.8aba8ea74d4798ba108b29eac05cb86f.js": "/react-app-easy-diet-app/precache-manifest.8aba8ea74d4798ba108b29eac05cb86f.js",
-    "service-worker.js": "/react-app-easy-diet-app/service-worker.js",
-    "static/css/main.a10cf371.chunk.css.map": "/react-app-easy-diet-app/static/css/main.a10cf371.chunk.css.map",
-    "static/js/2.2f4a89fd.chunk.js.LICENSE.txt": "/react-app-easy-diet-app/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
+    "main.css": "/frontendpole.github.io/react-app-easy-diet-app/static/css/main.a10cf371.chunk.css",
+    "main.js": "/frontendpole.github.io/react-app-easy-diet-app/static/js/main.9e493ef5.chunk.js",
+    "main.js.map": "/frontendpole.github.io/react-app-easy-diet-app/static/js/main.9e493ef5.chunk.js.map",
+    "runtime-main.js": "/frontendpole.github.io/react-app-easy-diet-app/static/js/runtime-main.ea8e8337.js",
+    "runtime-main.js.map": "/frontendpole.github.io/react-app-easy-diet-app/static/js/runtime-main.ea8e8337.js.map",
+    "static/js/2.2f4a89fd.chunk.js": "/frontendpole.github.io/react-app-easy-diet-app/static/js/2.2f4a89fd.chunk.js",
+    "static/js/2.2f4a89fd.chunk.js.map": "/frontendpole.github.io/react-app-easy-diet-app/static/js/2.2f4a89fd.chunk.js.map",
+    "index.html": "/frontendpole.github.io/react-app-easy-diet-app/index.html",
+    "precache-manifest.0cec33d808e96f4f097dfe43285f5dc2.js": "/frontendpole.github.io/react-app-easy-diet-app/precache-manifest.0cec33d808e96f4f097dfe43285f5dc2.js",
+    "service-worker.js": "/frontendpole.github.io/react-app-easy-diet-app/service-worker.js",
+    "static/css/main.a10cf371.chunk.css.map": "/frontendpole.github.io/react-app-easy-diet-app/static/css/main.a10cf371.chunk.css.map",
+    "static/js/2.2f4a89fd.chunk.js.LICENSE.txt": "/frontendpole.github.io/react-app-easy-diet-app/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1bfd2a3.js",
+    "static/js/runtime-main.ea8e8337.js",
     "static/js/2.2f4a89fd.chunk.js",
     "static/css/main.a10cf371.chunk.css",
-    "static/js/main.3b7271f4.chunk.js"
+    "static/js/main.9e493ef5.chunk.js"
   ]
 }
