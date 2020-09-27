@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactapp-easy-diet-app/static/css/main.a10cf371.chunk.css",
-    "main.js": "/reactapp-easy-diet-app/static/js/main.3d0d418d.chunk.js",
-    "main.js.map": "/reactapp-easy-diet-app/static/js/main.3d0d418d.chunk.js.map",
+    "main.js": "/reactapp-easy-diet-app/static/js/main.5055a1b0.chunk.js",
+    "main.js.map": "/reactapp-easy-diet-app/static/js/main.5055a1b0.chunk.js.map",
     "runtime-main.js": "/reactapp-easy-diet-app/static/js/runtime-main.4d45f367.js",
     "runtime-main.js.map": "/reactapp-easy-diet-app/static/js/runtime-main.4d45f367.js.map",
     "static/js/2.2f4a89fd.chunk.js": "/reactapp-easy-diet-app/static/js/2.2f4a89fd.chunk.js",
     "static/js/2.2f4a89fd.chunk.js.map": "/reactapp-easy-diet-app/static/js/2.2f4a89fd.chunk.js.map",
     "index.html": "/reactapp-easy-diet-app/index.html",
-    "precache-manifest.e1767500febe14b50127aa925f643601.js": "/reactapp-easy-diet-app/precache-manifest.e1767500febe14b50127aa925f643601.js",
+    "precache-manifest.287efa00efb51b6c2f368be44927bd23.js": "/reactapp-easy-diet-app/precache-manifest.287efa00efb51b6c2f368be44927bd23.js",
     "service-worker.js": "/reactapp-easy-diet-app/service-worker.js",
     "static/css/main.a10cf371.chunk.css.map": "/reactapp-easy-diet-app/static/css/main.a10cf371.chunk.css.map",
     "static/js/2.2f4a89fd.chunk.js.LICENSE.txt": "/reactapp-easy-diet-app/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4d45f367.js",
     "static/js/2.2f4a89fd.chunk.js",
     "static/css/main.a10cf371.chunk.css",
-    "static/js/main.3d0d418d.chunk.js"
+    "static/js/main.5055a1b0.chunk.js"
   ]
 }
