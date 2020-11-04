@@ -7,7 +7,7 @@ import {
 const choiceEnergy = () => {
   return (
     <div className={classes.Choice} style={{ backgroundColor: 'rgb(211, 117, 117)' }}>
-      <Link to='/react-app-easy-diet-app/energy-demand-calculator'>Energy Demand</Link>
+      <Link to='/easy-diet-app/energy-demand-calculator'>Energy Demand</Link>
     </div>
   );
 }

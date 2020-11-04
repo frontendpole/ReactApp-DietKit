@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import classes from './App.module.css';
-import Header from './components/Header/Header'
-import Nav from './components/Nav/Nav'
-import { CardBMI } from './containers/Card/CardBMI/CardBMI'
-import { CardEnergy } from './containers/Card/CardEnergy/CardEnergy'
-import { CardWater } from './containers/Card/CardWater/CardWater'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import { CardBMI } from './containers/Card/CardBMI/CardBMI';
+import { CardEnergy } from './containers/Card/CardEnergy/CardEnergy';
+import { CardWater } from './containers/Card/CardWater/CardWater';
+import Footer from './components/Footer/Footer';
 import {
   BrowserRouter as Router,
   Switch,

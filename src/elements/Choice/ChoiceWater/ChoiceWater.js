@@ -7,7 +7,7 @@ import {
 const choiceWater = () => {
   return (
     <div className={classes.Choice} style={{ backgroundColor: 'cadetblue' }}>
-      <Link to='/react-app-easy-diet-app/water-demand-calculator'>Water Demand</Link>
+      <Link to='/easy-diet-app/water-demand-calculator'>Water Demand</Link>
     </div>
   );
 }
