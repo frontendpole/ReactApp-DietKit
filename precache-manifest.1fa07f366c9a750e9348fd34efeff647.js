@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9738c948b3870d4acf1c26fed6b68e2",
+    "revision": "888fa9c2b415e5564b9558680a5f0677",
     "url": "/easy-diet-app/index.html"
   },
   {
-    "revision": "b7e162eac47109e0dfb4",
+    "revision": "836195afda7cee9fd80f",
     "url": "/easy-diet-app/static/css/main.413bc351.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/easy-diet-app/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7e162eac47109e0dfb4",
-    "url": "/easy-diet-app/static/js/main.c1b2f7e9.chunk.js"
+    "revision": "836195afda7cee9fd80f",
+    "url": "/easy-diet-app/static/js/main.e28dd2dd.chunk.js"
   },
   {
     "revision": "0730511527e7f4afe52c",
