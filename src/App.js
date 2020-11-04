@@ -22,7 +22,7 @@ export class App extends Component {
       <div className={classes.AppWrapper}>
         <Router>
           <Switch>
-            <Route exact path='/react-app-easy-diet-app'>
+            <Route exact path='/easy-diet-app'>
               <Nav backgroundColor='darkgray' />
               <Header content='choose your calculator' fontSize='40px' />
               <div className={classes.AppMain}>
@@ -32,27 +32,27 @@ export class App extends Component {
               </div>
               <Footer />
             </Route>
-            <Route path='/react-app-easy-diet-app/energy-demand-calculator'>
+            <Route path='/easy-diet-app/energy-demand-calculator'>
               <Nav backgroundColor='rgb(211, 117, 117)' />
               <Header content='calculate your daily energy demand' fontSize='40px' />
               <div className={classes.AppMain}>
-                <Link className={classes.Back} to='/react-app-easy-diet-app/'>back</Link>
+                <Link className={classes.Back} to='/easy-diet-app/'>back</Link>
                 <CardEnergy />
               </div>
             </Route>
-            <Route path='/react-app-easy-diet-app/bmi-calculator'>
+            <Route path='/easy-diet-app/bmi-calculator'>
               <Nav backgroundColor='rgb(80, 126, 80)' />
               <Header content='calculate your body mass index' fontSize='40px' />
               <div className={classes.AppMain}>
-                <Link className={classes.Back} to='/react-app-easy-diet-app'>back</Link>
+                <Link className={classes.Back} to='/easy-diet-app'>back</Link>
                 <CardBMI />
               </div>
             </Route>
-            <Route path='/react-app-easy-diet-app/water-demand-calculator'>
+            <Route path='/easy-diet-app/water-demand-calculator'>
               <Nav backgroundColor='cadetblue' />
               <Header content='calculate your daily water demand' fontSize='40px' />
               <div className={classes.AppMain}>
-                <Link className={classes.Back} to='/react-app-easy-diet-app'>back</Link>
+                <Link className={classes.Back} to='/easy-diet-app'>back</Link>
                 <CardWater />
               </div>
             </Route>
