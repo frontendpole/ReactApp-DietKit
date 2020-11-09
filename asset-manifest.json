@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/easy-diet-app/static/css/main.413bc351.chunk.css",
+    "main.css": "/easy-diet-app/static/css/main.20c09d87.chunk.css",
     "main.js": "/easy-diet-app/static/js/main.e9dbda73.chunk.js",
     "main.js.map": "/easy-diet-app/static/js/main.e9dbda73.chunk.js.map",
     "runtime-main.js": "/easy-diet-app/static/js/runtime-main.2f435c6d.js",
@@ -8,15 +8,15 @@
     "static/js/2.2f4a89fd.chunk.js": "/easy-diet-app/static/js/2.2f4a89fd.chunk.js",
     "static/js/2.2f4a89fd.chunk.js.map": "/easy-diet-app/static/js/2.2f4a89fd.chunk.js.map",
     "index.html": "/easy-diet-app/index.html",
-    "precache-manifest.f16997c2da0132c974e4a459cad88c15.js": "/easy-diet-app/precache-manifest.f16997c2da0132c974e4a459cad88c15.js",
+    "precache-manifest.edd203544bb448a8256e83aa195ee296.js": "/easy-diet-app/precache-manifest.edd203544bb448a8256e83aa195ee296.js",
     "service-worker.js": "/easy-diet-app/service-worker.js",
-    "static/css/main.413bc351.chunk.css.map": "/easy-diet-app/static/css/main.413bc351.chunk.css.map",
+    "static/css/main.20c09d87.chunk.css.map": "/easy-diet-app/static/css/main.20c09d87.chunk.css.map",
     "static/js/2.2f4a89fd.chunk.js.LICENSE.txt": "/easy-diet-app/static/js/2.2f4a89fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2f435c6d.js",
     "static/js/2.2f4a89fd.chunk.js",
-    "static/css/main.413bc351.chunk.css",
+    "static/css/main.20c09d87.chunk.css",
     "static/js/main.e9dbda73.chunk.js"
   ]
 }
