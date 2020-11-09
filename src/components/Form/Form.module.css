@@ -49,3 +49,9 @@ label {
   align-self: flex-start;
   margin-top: 10px;
 }
+
+@media (max-device-width: 400px){
+  .FormWrapper{
+    width: 220px;
+  }
+}

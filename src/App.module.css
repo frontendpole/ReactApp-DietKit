@@ -14,7 +14,9 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
+  align-self: center;
+  margin-bottom: 50px;
 }
 
 .Back {
@@ -29,4 +31,34 @@
   font-size: 25px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media (max-device-width: 400px) {
+.Back{
+  top: 145%;
+  left: 50%;
+    transform: translateX(-50%)
+}
+}
+
+@media (min-device-width: 401px) and (max-device-width: 590px){
+  .Back{
+    top: 135%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
+@media (max-device-width: 900px){
+  .AppWrapper {
+    height: auto;
+  }
+  
+  .AppMain{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    margin-bottom: 50px;
+  }
 }

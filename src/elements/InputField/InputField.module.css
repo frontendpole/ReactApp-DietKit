@@ -48,3 +48,9 @@
   text-transform: uppercase;
   letter-spacing: +.5px;
 }
+
+@media (max-device-width: 400px){
+    .InputFieldWrapper input::placeholder{
+      font-size: 16px;
+    }
+}

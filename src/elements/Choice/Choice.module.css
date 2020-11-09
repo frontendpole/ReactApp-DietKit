@@ -1,12 +1,9 @@
 .Choice {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  max-width: 350px;
-  min-height: 200px;
-  max-height: 600px;
+  width: 300px;
+  height: 200px;
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .16);
@@ -17,4 +14,15 @@
   color: blanchedalmond;
   font-size: 30px;
   text-decoration: none;
+}
+
+@media (max-device-width: 1200px){
+ .Choice{
+  width: 250px;
+  height: 130px;
+ }
+
+ .Choice a{
+   font-size: 28px;
+ }
 }
