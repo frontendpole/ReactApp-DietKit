@@ -1,4 +1,6 @@
-# Hi! Thanks for checking out this repository. :)
+# Easy Diet App
+
+Hi! Thanks for checking out this repository. :)
 
 This is a dietary calculator made for HoliDiet.
 
